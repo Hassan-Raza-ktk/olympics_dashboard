@@ -7,9 +7,9 @@ import plotly.express as px
 
 # Set page configuration
 st.set_page_config(
-    page_title="The Olympic Story: 120 Years of History",
-    layout="wide",
-    page_icon="🏅"
+    page_title="Olympic Data Dashboard",
+    page_icon="🏅",
+    layout="wide"
 )
 
 
@@ -32,7 +32,9 @@ with st.sidebar.expander("👤 About Hassan"):
 
 # 🏅 Title and subtitle on the right
 st.title("The Olympic Story: 120 Years of History")
-st.markdown("*A deep dive into the athletes, medals, and nations that shaped Olympic history.*")
+st.markdown("""
+This interactive dashboard lets you filter and analyze Olympic athlete data by country, gender, year, and sport.
+""")
 
 
 # 📚 About Dataset in Sidebar
@@ -612,3 +614,15 @@ fig.update_layout(margin={"r":0,"t":30,"l":0,"b":0})
 
 st.plotly_chart(fig, use_container_width=True)
 
+
+
+# -------------------- Footer--------------------
+st.markdown("""
+---
+**Made by Hassan Raza**  
+Need a custom interactive dashboard for your business, school, or startup?  
+👉 Let's talk: **[LinkedIn](https://www.linkedin.com/in/hassan-raza-9651b6279/)** | 📧 razakhattak123@gmail.com
+
+""")
+
+# -------------------- END OF DASHBOARD --------------------
