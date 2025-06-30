@@ -1,3 +1,5 @@
+![Dashboard Banner](banner.png)
+
 # 🏅 Olympic Data Dashboard
 
 📊 A Streamlit dashboard analyzing Olympic athlete data by country, gender, year, and sport — interactive and insightful.
